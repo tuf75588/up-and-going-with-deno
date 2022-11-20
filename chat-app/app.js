@@ -25,7 +25,7 @@ socket.onmessage = (m) => {
   }
 };
 
-function addMessage(username, message) {
+ function addMessage(username, message) {
   // displays new message
   document.getElementById(
     "conversation",
